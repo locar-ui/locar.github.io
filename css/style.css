@@ -1,0 +1,112 @@
+body{
+	font-family: Arial;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid darkgreen;
+    padding: 20px;
+    text-align: center;
+
+}
+
+div.information h1{
+	font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+div.information img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+div.information h2 a{
+	text-decoration: none;
+	color: green;
+	font-family: Arial;
+}
+
+div.information h2 a:hover{
+    border: 2px solid darkgreen; 
+    background-color: green;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+div.introduction h3{
+	background-color: darkgreen;
+	color: white;
+	padding:5px;
+}
+
+div.introduction p{
+	text-indent: 50px;
+	padding: 0 0 20px 0;
+	text-align: justify;
+}
+
+div.education h4{
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid black;
+	margin: 10px 0;
+}
+
+div.education table thead tr th{
+	background-color: darkgreen;
+	border: 1px solid lightgrey;
+	color: white;
+	padding: 8px;
+}
+
+
+div.education table tbody tr td{
+	padding: 8px ;
+    text-align: left;
+    border: 1px solid lightgrey;
+}
+
+td.Level{
+	font-weight: bold;
+}
+
+div.education table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+    font-family: Arial;
+}
+
+div.expertise h3{
+	background-color: darkgreen;
+	color: white;
+	padding:5px;
+}
+
+div.expertise ul li{
+	 list-style-type: square;
+}
+
+div.background-info h4{
+	background-color: darkgreen;
+	color: white;
+	padding:5px;
+}
+
+div.background-info p{
+	text-indent: 50px;
+	padding: 0 0 10px 0;
+	text-align: justify;
+}
+
+div.apps h4{
+	background-color: darkgreen;
+	color: white;
+	padding:5px;
+}
+
+div.content h3, h4, ul, ol{
+	text-align: left;
+	font-family: Arial;
+	width:100%;
+}
